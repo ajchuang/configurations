@@ -26,8 +26,8 @@ set splitright
 "       unchanged.
 "   F5: delete current word
 " nnoremap <F2> :let @/ = "\\<<C-R><C-W>\\>"<CR>
-" nnoremap <F2> :let @/ = expand('<cword>')<CR>
-nnoremap <F2> *# 
+nnoremap <F2> :let @/ = expand('<cword>')<CR>:set hls<CR>
+" nnoremap <F2> *# 
 nnoremap <F3> yiw
 nnoremap <F4> viwpyiw
 nnoremap <F5> viwd
